@@ -1,0 +1,14 @@
+{
+	"configurations": {
+		"MyConfig": {
+			"default": true,
+			"adapter": "netcoredbg",
+			"configuration": {
+				"request": "launch",
+				"program": "${workspaceRoot}/Startup/bin/Development/net5.0/HelloWorldConsole.Startup.dll"
+			}
+		}
+	}
+}
+
+

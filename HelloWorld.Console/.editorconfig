@@ -1,0 +1,27 @@
+root = true
+
+[*]
+insert_final_newline = true
+charset = utf-8
+indent_style = tab
+trim_trailing_whitespace = true
+
+[*.designer.cs]
+trim_trailing_whitespace = false
+
+[*.md]
+charset = unset
+end_of_line = unset
+insert_final_newline = unset
+trim_trailing_whitespace = unset
+indent_style = unset
+indent_size = unset
+
+[*.cs]
+csharp_new_line_before_open_brace = none
+csharp_new_line_before_else = false
+csharp_new_line_before_catch = false
+csharp_new_line_before_finally = false
+csharp_new_line_before_members_in_object_initializers = false
+csharp_new_line_before_members_in_anonymous_types = false
+csharp_new_line_between_query_expression_clauses = false
